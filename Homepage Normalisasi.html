@@ -7,28 +7,32 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="theme.css">
+  <!--- font --->
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 </head>
 
 <body>
   <pingendo onclick="window.open('https://pingendo.com/', '_blank')" style="cursor:pointer;position: fixed;bottom: 20px;right:20px;padding:4px;background-color: #00b0eb;border-radius: 8px; width:220px;display:flex;flex-direction:row;align-items:center;justify-content:center;font-size:14px;color:white">Made with Pingendo Free&nbsp;&nbsp;<img src="https://pingendo.com/site-assets/Pingendo_logo_big.png" class="d-block" alt="Pingendo logo" height="16"></pingendo>
-  <nav class="navbar navbar-expand-md navbar-dark bg-primary">
-    <div class="container"> <a class="navbar-brand" href="#">
-        <i class="fa d-inline fa-lg fa-stop-circle"></i>
-        <b> BRAND</b>
-      </a> <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbar16">
+  <nav class="navbar navbar-expand-md navbar-light">
+    <div class="container"> <a class="navbar-brand text-primary" href="#">
+        <b class="text-body" style="font-family: Quicksand; font-size: 25px"> Normalisasi</b>
+      </a> <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbar4">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbar16">
+      <div class="collapse navbar-collapse" id="navbar4">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item"> <a class="nav-link" href="#">Beranda</a> </li>
           <li class="nav-item"> <a class="nav-link" href="#">Materi</a> </li>
-          <li class="nav-item"> <a class="nav-link" href="#">Soal</a> </li>
-          <li>
-            <div class="btn-group">
-              <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown"> Unduh</button>
-              <div class="dropdown-menu"> <a class="dropdown-item" href="#">Materi</a>
-                <a class="dropdown-item" href="#">Buku Referensi</a>
-                <a class="dropdown-item" href="#">Video Pempelajaran</a>
+          <li class="nav-item"> <a class="nav-link" href="#">
+              <font size="3">Soal</font>
+            </a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#">Video</a> </li>
+          <li class="nav-item"><a class="nav-link" href="#">Forum</a></li>
+          <li class="nav-item">
+            <div class="btn-group"><button class="btn btn-primary dropdown-toggle" data-toggle="dropdown"> Dropdown </button>
+              <div class="dropdown-menu"> <a class="dropdown-item" href="#">Action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
               </div>
             </div>
           </li>
@@ -36,12 +40,12 @@
       </div>
     </div>
   </nav>
-  <div class="py-5 text-center text-white align-items-center d-flex h-50" style="	background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), #2979ff);	background-position: center center;	background-size: cover;	background-repeat: repeat;">
+  <div class="py-5 text-center text-white align-items-center d-flex h-50 bg-secondary" style="">
     <div class="container py-5">
       <div class="row">
-        <div class="mx-auto col-lg-8 col-md-10">
-          <h1 class="display-3 mb-4">Belajar Normalisasi</h1>
-          <p class="lead mb-5">Has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence.</p> <a href="#" class="btn btn-lg btn-primary mx-1 text-light">Take me there</a> <a class="btn btn-lg mx-1 btn-outline-primary" href="#">Let's Go</a>
+        <div class="mx-auto col-lg-10 col-md-12" style="">
+          <h1 class="display-3 mb-4">Normalisasi</h1>
+          <p class="lead mb-3">Selamat datang, Anda bisa mengenal apa itu normalisasi dan bagaimana cara melakukannya</p> <a href="#" class="btn btn-lg btn-primary mx-1 text-light">Mulai</a>
         </div>
       </div>
     </div>
@@ -82,9 +86,17 @@
   <div class="py-5">
     <div class="container">
       <div class="row">
+        <div class="col-md-12">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
         <div class="col-md-12 col-lg-6"><img class="img-fluid d-block" src="Image/pexels-photo-908295.jpeg"></div>
         <div class="col-md-12 col-lg-6">
-          <h1> RINGKASAN MATERI </h1>
+          <h1 contenteditable="true"> Forum Diskusi</h1>
           <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has </p>
           <a class="btn btn-lg mx-1 btn-outline-primary" href="#" style="">Let's Go</a>
         </div>
