@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="https://static.pingendo.com/bootstrap/bootstrap-4.1.3.css">
+</head>
+
+<body>
+  <div class="py-3 mt-3 mb-2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="display-4" style="">Normalisasi : 1 NF</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-1">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p class="" style="font-size: 20px;"> Sebuah tabel dikatakan melanggar bentuk normal pertama jika terdapat multivalue attribute. Syarat Normal 1NF adalah suatu relasi dikatakan dalam bentuk normal pertama jika dan hanya jika setiap atribut bernilai tunggal dalam satu baris. Contoh tabel yang memiliki multivalue attribute </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5" style="">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12"><img class="d-block" src="C:/Users/Syawali.A/Documents/Kuliah/Semester 5/IMK/Mockup/V.W.1/Image/Tabel Contoh 1NF.JPG" style="height: 300px; width: 500px;"></div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p class="">Hilangkan multivalue attribute sehingga setiap atribut bernilai tunggal dalam satu baris seperti tabel dibawah ini</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="table-responsive">
+            <table class="table table-bordered ">
+              <thead class="thead-dark">
+                <tr>
+                  <th>NIP</th>
+                  <th>Nama</th>
+                  <th>Jabatan</th>
+                  <th>Keahlian</th>
+                  <th>Lama Kerja </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th>107</th>
+                  <td>Ardha</td>
+                  <td>Analis Senior</td>
+                  <td>Cobol</td>
+                  <td>6</td>
+                </tr>
+                <tr>
+                  <th>107</th>
+                  <td>Ardha</td>
+                  <td>Analis Senior</td>
+                  <td>Oracle</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <th>109</th>
+                  <td>Ryan</td>
+                  <td>Analis Junior</td>
+                  <td>Cobol</td>
+                  <td>2</td>
+                </tr>
+                <tr>
+                  <th>109</th>
+                  <td>Ryan</td>
+                  <td>Analis Junior</td>
+                  <td>C++</td>
+                  <td>2</td>
+                </tr>
+                <tr>
+                  <th>120</th>
+                  <td>Fika</td>
+                  <td>Programmer</td>
+                  <td>Dbase</td>
+                  <td>3</td>
+                </tr>
+                <tr>
+                  <th>120</th>
+                  <td>Fika</td>
+                  <td>Programmer</td>
+                  <td>Sybase</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <th>120</th>
+                  <td>Fika</td>
+                  <td>Programmer</td>
+                  <td>Cobol</td>
+                  <td>1</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h4 class="">Latihan Normalisasi 1NF</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="table-responsive">
+            <table class="table table-bordered ">
+              <thead class="thead-dark">
+                <tr>
+                  <th>NIM</th>
+                  <th>Hobby</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th>113040157</th>
+                  <td>Membaca Buku, Photography</td>
+                </tr>
+                <tr>
+                  <th>113041009</th>
+                  <td>Renang, Jogging, Badminton</td>
+                </tr>
+                <tr>
+                  <th scope="row">113040276</th>
+                  <td>Ngoding, Design Website</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p class="lead">Bagaimana menjadikan tabel diatas agar memenuhi syarat 1NF?<br>Jawaban?</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="table-responsive">
+            <table class="table table-bordered ">
+              <thead class="thead-dark">
+                <tr>
+                  <th>NIM</th>
+                  <th>Hobby</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th>113040157</th>
+                  <td>Membaca Buku</td>
+                </tr>
+                <tr>
+                  <th>113040157</th>
+                  <td style="">Photography</td>
+                </tr>
+                <tr>
+                  <th scope="row">113041009</th>
+                  <td>Renang</td>
+                </tr>
+                <tr>
+                  <th scope="row">113041009</th>
+                  <td>Jogging</td>
+                </tr>
+                <tr>
+                  <th scope="row">113041009</th>
+                  <td>Badminton</td>
+                </tr>
+                <tr>
+                  <th scope="row">113040276</th>
+                  <td>Ngoding</td>
+                </tr>
+                <tr>
+                  <th scope="row">113040276</th>
+                  <td>Design Website</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <pingendo onclick="window.open('https://pingendo.com/', '_blank')" style="cursor:pointer;position: fixed;bottom: 20px;right:20px;padding:4px;background-color: #00b0eb;border-radius: 8px; width:220px;display:flex;flex-direction:row;align-items:center;justify-content:center;font-size:14px;color:white">Made with Pingendo Free&nbsp;&nbsp;<img src="https://pingendo.com/site-assets/Pingendo_logo_big.png" class="d-block" alt="Pingendo logo" height="16"></pingendo>
+</body>
+
+</html>
