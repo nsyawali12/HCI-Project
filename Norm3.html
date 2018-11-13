@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="https://static.pingendo.com/bootstrap/bootstrap-4.1.3.css">
+  <!--- font --->
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-light">
+    <div class="container"> <a class="navbar-brand text-primary" href="#">
+        <b class="text-body" style="font-family: Quicksand; font-size: 25px"> Normalisasi</b>
+      </a> <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbar4">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar4">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"> <a class="nav-link" href="#">Beranda</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#">Materi</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#">
+              <font size="3">Soal</font>
+            </a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#">Video</a> </li>
+          <li class="nav-item"><a class="nav-link" href="#">Forum</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Unduh</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="display-4">Normalisasi : 3 NF</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p class="">Syarat untuk membentuk 3NF :<br>&nbsp; &nbsp; &nbsp; • Sudah berada dalam bentuk 2NF<br>&nbsp; &nbsp; &nbsp; • Semua atribut bukan key tidak mempunyai hubungan yang transitif.&nbsp;<br>&nbsp; &nbsp; &nbsp; • Hubungan yang transitif adalah dimana terdapat atribut yang bukan cadidate key tergantung pada atribut yang bukan candidate key lainnya dalam satu tabel Contoh Soal:&nbsp;<br>Dimanakah diantara 3 tabel ini yang belum memenuhi kondisi 3rd NF&nbsp;<br><br>Tabel NIM </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="table-responsive">
+            <table class="table table-bordered ">
+              <thead class="thead-dark">
+                <tr>
+                  <th>NIM</th>
+                  <th>namaMhs</th>
+                  <th>almtMhs</th>
+                  <th> jenisKelamin </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th>1301140017</th>
+                  <td>Mark Ruffalo</td>
+                  <td> Jl. Bulan No.19</td>
+                  <td> L </td>
+                </tr>
+                <tr>
+                  <th>30112777</th>
+                  <td> Chris Evans</td>
+                  <td> Jl. Koment No. 07</td>
+                  <td> L </td>
+                </tr>
+                <tr>
+                  <th>30112999</th>
+                  <td> Gal Gadot </td>
+                  <td> Jl. Angkasa No. 88 </td>
+                  <td> P </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h6 class="">Tabel Nilai</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="table-responsive">
+            <table class="table table-bordered ">
+              <thead class="thead-dark">
+                <tr>
+                  <th>NIM</th>
+                  <th>kodeMK</th>
+                  <th>nilai</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th>1301140017</th>
+                  <td>KUG1C3</td>
+                  <td>B</td>
+                </tr>
+                <tr>
+                  <th>1301140017</th>
+                  <td>CSH2C3</td>
+                  <td>AB</td>
+                </tr>
+                <tr>
+                  <th style="">1301140017</th>
+                  <td>SEH2A3</td>
+                  <td>E</td>
+                </tr>
+                <tr>
+                  <th>30112777</th>
+                  <td>CSH2C3</td>
+                  <td>A</td>
+                </tr>
+                <tr>
+                  <th>30112777</th>
+                  <td>CSH3A4</td>
+                  <td>C</td>
+                </tr>
+                <tr>
+                  <th>30112999</th>
+                  <td>KUG1C3</td>
+                  <td>B</td>
+                </tr>
+                <tr>
+                  <th>30112999</th>
+                  <td>CSH2C3</td>
+                  <td>D</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h6 class="">Tabel MK</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="table-responsive">
+            <table class="table table-bordered ">
+              <thead class="thead-dark">
+                <tr>
+                  <th>kodeMk</th>
+                  <th>namaMk</th>
+                  <th>SKS</th>
+                  <th>smster</th>
+                  <th>kodeDosen</th>
+                  <th>namaDosen</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th>KUG1C3</th>
+                  <td>Dasar Algoritma Pemrograman</td>
+                  <td>3</td>
+                  <td>1</td>
+                  <td>OKE</td>
+                  <td>Okhe</td>
+                </tr>
+                <tr>
+                  <th>CSH2C3</th>
+                  <td> Pemodelan Basis data </td>
+                  <td>3</td>
+                  <td>4</td>
+                  <td>OKE</td>
+                  <td>Okhe</td>
+                </tr>
+                <tr>
+                  <th>SEH2A3</th>
+                  <td> Pemrograman Berorientasi Objek </td>
+                  <td>3</td>
+                  <td>4</td>
+                  <td>APA</td>
+                  <td>Aprilia Ananda</td>
+                </tr>
+                <tr>
+                  <th>CSH3A4</th>
+                  <td> Jaringan Komputer </td>
+                  <td>4</td>
+                  <td>5</td>
+                  <td>HEH</td>
+                  <td>Heru Hasyim</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p class="">Tabel yang belum memenuhi 3rd NF adalah Tabel MK, karena terdapat hubungan yang transitif yaitu:&nbsp;<br>kodeMK → kodeDosen&nbsp;<br>kodeDosen → namaDosen&nbsp;<br>Oleh karena itu diperlukan dekomposisi tabel sehingga menjadi tabel yang berdiri sendiri seperti berikut: </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="table-responsive">
+            <table class="table table-bordered ">
+              <thead class="thead-dark">
+                <tr>
+                  <th>kodeMK</th>
+                  <th>namaMK</th>
+                  <th>SKS</th>
+                  <th>smster</th>
+                  <th>kodeDosen</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th>KUG1C3</th>
+                  <td>Dasar Algoritma Pemrograman</td>
+                  <td>3</td>
+                  <td>1</td>
+                  <td>OKE</td>
+                </tr>
+                <tr>
+                  <th>CSH2C3</th>
+                  <td>Pemodelan Basis Data</td>
+                  <td>3</td>
+                  <td>4</td>
+                  <td>OKE</td>
+                </tr>
+                <tr>
+                  <th>SEH2A3</th>
+                  <td>Pemrograman Berorientasi Objek</td>
+                  <td>3</td>
+                  <td>4</td>
+                  <td>APA</td>
+                </tr>
+                <tr>
+                  <th>CSH3A4</th>
+                  <td>Jaringan Komputer</td>
+                  <td>4</td>
+                  <td>5</td>
+                  <td>HEH</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="table-responsive">
+            <table class="table table-bordered ">
+              <thead class="thead-dark">
+                <tr>
+                  <th>kodeDosen</th>
+                  <th>namaDosen</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th>OKE</th>
+                  <td>Okhe</td>
+                </tr>
+                <tr>
+                  <th>APA</th>
+                  <td>Aprilia Ananda</td>
+                </tr>
+                <tr>
+                  <th>HEH</th>
+                  <td>Heru Hasyim</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5" style="">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="display-4">Normalisasi : BCNF</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p class="">• Sudah berada dalam bentuk 3NF<br>&nbsp;• Setiap determinan harus menjadi candidate key (CK).&nbsp;<br>• Sebuah tabel dikatakan telah memenuhi bentuk normal ketiga jika untuk setiap FD dengan notasi<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;o x a, dimana a mewakili semua atribut tunggal di dalam tabel yang tidak ada di dalam x, maka:&nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  X haruslah CK dari tabel tersebut&nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  A bukan merupakan bagian dari candidate key pada tabel tersebut&nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Dengan kata lain setiap keterantungan fungsional yang terbentuk, ruas kirinya merupakan CK </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <pingendo onclick="window.open('https://pingendo.com/', '_blank')" style="cursor:pointer;position: fixed;bottom: 20px;right:20px;padding:4px;background-color: #00b0eb;border-radius: 8px; width:220px;display:flex;flex-direction:row;align-items:center;justify-content:center;font-size:14px;color:white">Made with Pingendo Free&nbsp;&nbsp;<img src="https://pingendo.com/site-assets/Pingendo_logo_big.png" class="d-block" alt="Pingendo logo" height="16"></pingendo>
+</body>
+
+</html>
