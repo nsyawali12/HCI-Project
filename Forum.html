@@ -5,37 +5,111 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
-  <link rel="stylesheet" href="https://static.pingendo.com/bootstrap/bootstrap-4.1.3.css">
-  <!--- font --->
+  <link rel="stylesheet" href="css/Forum.css">
   <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oxygen:700" rel="stylesheet">
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-md navbar-light">
-    <div class="container"> <a class="navbar-brand text-primary" href="#">
-        <b class="text-body" style="font-family: Quicksand; font-size: 25px"> Normalisasi</b>
+  <pingendo onclick="window.open('https://pingendo.com/', '_blank')" style="cursor:pointer;position: fixed;bottom: 20px;right:20px;padding:4px;background-color: #00b0eb;border-radius: 8px; width:220px;display:flex;flex-direction:row;align-items:center;justify-content:center;font-size:14px;color:white">Made with Pingendo Free&nbsp;&nbsp;<img src="https://pingendo.com/site-assets/Pingendo_logo_big.png" class="d-block" alt="Pingendo logo" height="16"></pingendo>
+  <nav class="navbar navbar-expand-md navbar-fixed-top fixed-top text-capitalize bg-light navbar-light">
+    <div class="container"> <a class="navbar-brand text-primary text-body" style="font-family:'Exo 2', sans-serif; font-size: 30px; font-weight:900;" href="#">
+        <i>Normalisasi</i>
       </a> <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbar4">
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon text-capitalize"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbar4">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item"> <a class="nav-link" href="#">Beranda</a> </li>
-          <li class="nav-item"> <a class="nav-link" href="#">Materi</a> </li>
-          <li class="nav-item"> <a class="nav-link" href="#">
-              <font size="3">Soal</font>
-            </a> </li>
-          <li class="nav-item"> <a class="nav-link" href="#">Video</a> </li>
-          <li class="nav-item"><a class="nav-link" href="#">Forum</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Unduh</a></li>
+        <ul class="navbar-nav ml-auto" style="">
+          <li class="nav-item" style=""> <a class="nav-link" href="#" style="font-size: 20px"><i class="fa fa-home"></i>Beranda</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#" style="font-size: 20px"><i class="fa fa-book"></i>Materi</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#" style="font-size: 20px"><i class="fa fa-pencil"></i> Soal </a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#" style="font-size: 20px"><i class="fa fa-play-circle-o"></i>Video</a> </li>
+          <li class="nav-item"><a class="nav-link" href="#" style="font-size: 20px"><i class="fa fa-comments-o"></i>Forum</a></li>
+          <li class="nav-item"><a class="nav-link" href="#" style="font-size: 20px"><i class="fa fa-download"></i>Unduh</a></li>
         </ul>
       </div>
     </div>
   </nav>
-  <div class="py-5">
+  <div class="py-5 text-center text-white align-items-center d-flex h-75" style="background-image: linear-gradient(to bottom, rgba(79, 195, 247, 1), rgba(0, 0, 0, .75)), url(https://static.pingendo.com/cover-bubble-dark.svg);  background-position: center center, center center;  background-size: cover, cover;  background-repeat: repeat, repeat;">
+    <div class="container py-5">
+      <div class="row" style="">
+        <div class="mx-auto col-lg-8 col-md-10">
+          <h1 class="display-3 mb-4">Forum Tanya &amp; Jawab</h1>
+          <p class="lead-mb-1">Pada Halaman ini anda dapat bertanya di forum atau anda dapat menjawab pertanyaan seseorang yang berada di forum</p>
+        </div>
+        <form class="form-inline d-flex justify-content-around" style="margin-top: 30px;">
+          <div class="form-group" style="margin-left: 250px;"> <input type="search" class="form-control form-control-lg" id="form7" placeholder="Cari pertanyaan" style="margin-right: 50px"> </div>
+          <div>
+            <h2> Atau </h2>
+          </div>
+          <div class="form-group"> </div> <button type="submit" class="btn btn-lg btn-warning text-dark" style="margin-left: 50px; font-weight: bold; font-family: Oxygen;"> Ajukan Pertanyaan</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+      </div>
+    </div>
+  </div>
+  <div class="py-5 bg-info" style="">
     <div class="container">
       <div class="row">
-        <div class="col-md-12">
-          <h1 class="display-4 text-center">Forum</h1>
+        <div class="col-md-2 bg-light" style="">
+          <div class="col-sm-10 m-0 mx-auto" style=""><img class="img-fluid d-block rounded-0 ml-3 mt-2 mb-2 mr-2" src="Icon/user.png" style="width: 80px; height: 90px"></div>
+        </div>
+        <div class="col-md-8 bg-light" style="">
+          <h4 style="padding-top: 20px"> Nama Topik </h4>
+          <p style="padding-top: 20px; font-size: 15px"> Keterangan dari penulis topik </p>
+        </div>
+        <div class="col-md-2 bg-light" style="margin-left: -5px;">
+          <h4 style="padding-top: 20px"> Respon</h4>
+          <p style="padding-top: 20px; font-size: 15px;"> 0 </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2 bg-light" style="">
+          <div class="col-sm-10 m-0 mx-auto" style=""><img class="img-fluid d-block rounded-0 ml-3 mt-2 mb-2 mr-2" src="Icon/user.png" style="width: 80px; height: 90px"></div>
+        </div>
+        <div class="col-md-8 bg-light" style="">
+          <h4 style="padding-top: 20px"> Nama Topik </h4>
+          <p style="padding-top: 20px; font-size: 15px"> Keterangan dari penulis topik </p>
+        </div>
+        <div class="col-md-2 bg-light" style="margin-left: -5px;">
+          <h4 style="padding-top: 20px"> Respon</h4>
+          <p style="padding-top: 20px; font-size: 15px;"> 0 </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2 bg-light" style="">
+          <div class="col-sm-10 m-0 mx-auto" style=""><img class="img-fluid d-block rounded-0 ml-3 mt-2 mb-2 mr-2" src="Icon/user.png" style="width: 80px; height: 90px"></div>
+        </div>
+        <div class="col-md-8 bg-light" style="">
+          <h4 style="padding-top: 20px;"> Nama Topik </h4>
+          <p style="padding-top: 20px; font-size: 15px"> Keterangan dari penulis topik </p>
+        </div>
+        <div class="col-md-2 bg-light" style="margin-left: -5px;">
+          <h4 style="padding-top: 20px"> Respon</h4>
+          <p style="padding-top: 20px; font-size: 15px"> 0 </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-3 bg-secondary text-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center d-md-flex align-items-center d-inline-flex justify-content-center flex-grow-1">
+          <ul class="nav d-flex justify-content-center text-light align-items-center">
+            <li class="nav-item text-light d-inline-flex justify-content-center align-items-center"> <a class="nav-link active" href="#" style="color:white;">Beranda</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#" style="color:white;">Materi</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#" style="color:white;">Soal</a> </li>
+            <li class="nav-item"><a class="nav-link" href="#" style="color:white;">Video</a></li>
+            <li class="nav-item"><a class="nav-link" href="#" style="color:white;">Forum</a></li>
+            <li class="nav-item"><a class="nav-link" href="#" style="color:white;">Unduh</a></li>
+          </ul> <i class="d-block fa-3x mx-auto text-primary"></i>
+          <p class="mb-0 py-1 justify-content-center d-inline-flex align-items-center">©2018 Kelompok 1 IF 40-01</p>
         </div>
       </div>
     </div>
