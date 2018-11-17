@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="css/PNormalisasi.css">
+  <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oxygen:700" rel="stylesheet">
+</head>
+
+<body style="">
+  <nav class="navbar navbar-expand-md navbar-fixed-top fixed-top text-capitalize bg-light navbar-light">
+    <div class="container-fluid"> <a class="navbar-brand text-primary text-body" style="font-family:'Exo 2', sans-serif; font-size: 30px; font-weight:900;" href="Homepage Normalisasi.html">
+        <i>Normalisasi</i>
+      </a> <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbar4">
+        <span class="navbar-toggler-icon text-capitalize"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar4">
+        <ul class="navbar-nav ml-auto" style="">
+          <li class="nav-item" style=""> <a class="nav-link" href="Homepage Normalisasi.html" style="font-size: 20px"><i class="fa fa-home"></i>Beranda</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="MateriPengertianNormalisasi.html" style="font-size: 20px"><i class="fa fa-book"></i>Materi</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="Page Latihan Soal.html" style="font-size: 20px"><i class="fa fa-pencil"></i> Soal </a> </li>
+          <li class="nav-item"> <a class="nav-link" href="Video.html" style="font-size: 20px"><i class="fa fa-play-circle-o"></i>Video</a> </li>
+          <li class="nav-item"><a class="nav-link" href="Forum.html" style="font-size: 20px"><i class="fa fa-comments-o"></i>Forum</a></li>
+          <li class="nav-item"><a class="nav-link" href="Unduh.html" style="font-size: 20px"><i class="fa fa-download"></i>Unduh</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="pt-5" style="">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-2 bg-primary">
+          <div class="row">
+            <div class="col-md-12">
+              <h5 class="text-light mt-2"><b>Pengenalan Normalisasi</b></h5>
+            </div>
+          </div>
+          <div class="list-group">
+            <a href="MateriPengertianNormalisasi.html" class="list-group-item list-group-item-action active" style=""> Normalisasi</a>
+            <a href="MateriUpdateAnomaly.html" class="list-group-item list-group-item-action active" style="	background-image: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.2));	background-position: top left;	background-size: 100%;	background-repeat: repeat;">Update Anomaly</a>
+            <a href="MateriInsertionAnomaly.html" class="list-group-item list-group-item-action active">Insertion Anomaly</a>
+            <a href="MateriDeletionAnomaly.html" class="list-group-item list-group-item-action active">Deletion Anomaly</a>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <h5 class="text-light mt-2"><b>Tahap - Tahap Normalisasi</b></h5>
+            </div>
+          </div>
+          <div class="list-group">
+            <a href="Materi1stNorm.html" class="list-group-item list-group-item-action active" style=""> 1st Normal Form</a>
+            <a href="Materi2ndNorm.html" class="list-group-item list-group-item-action active">2nd Normal Form</a>
+            <a href="Materi3rdNorm.html" class="list-group-item list-group-item-action active">3rd Normal Form</a><a href="MateriBCNF.html" class="list-group-item list-group-item-action active">BCNF</a>
+          </div>
+        </div>
+        <div class="col-md-9">
+          <div class="row">
+            <div class="col-md-12"><br>
+              <h1 class="" style="font-size: 50px"> <b>Apa itu Update Anomaly?</b></h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="col-md-12">
+                <p class="text-justify" style="font-size: 32px">Apa bila kita memiliki desain Database mirip seperti tabel di bawah ini </p>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="table-responsive">
+                <table class="table table-bordered table-hover table-borderless table-striped">
+                  <thead style="background:#3b5998">
+                    <tr style="color: white">
+                      <th>NIM</th>
+                      <th>Nama_Mhs</th>
+                      <th>Kode_Jur</th>
+                      <th>Nama_Jur</th>
+                      <th>Kode_Mk</th>
+                      <th>Nama_Mk</th>
+                      <th>SKS</th>
+                      <th>Nilai</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th>1-01</th>
+                      <td>Tukimin</td>
+                      <td>TE</td>
+                      <td>Elektro</td>
+                      <td>TE-001</td>
+                      <td>Elektronika</td>
+                      <td>3</td>
+                      <td>A</td>
+                    </tr>
+                    <tr class="table-warning">
+                      <th>1-01</th>
+                      <td>Tukimin</td>
+                      <td>TE</td>
+                      <td>Elektro</td>
+                      <td>DU-001</td>
+                      <td>English</td>
+                      <td>2</td>
+                      <td>A</td>
+                    </tr>
+                    <tr>
+                      <th>2-01</th>
+                      <td>Jamilah</td>
+                      <td>IF</td>
+                      <td>Informatika</td>
+                      <td>IF-001</td>
+                      <td>Algoritma</td>
+                      <td>3</td>
+                      <td>B</td>
+                    </tr>
+                    <tr class="table-warning">
+                      <th>2-01</th>
+                      <td>Jamilah</td>
+                      <td>IF</td>
+                      <td>Informatika</td>
+                      <td>DU-001</td>
+                      <td>English</td>
+                      <td>2</td>
+                      <td>C</td>
+                    </tr>
+                    <tr>
+                      <th>2-02</th>
+                      <td>Maemunah</td>
+                      <td>IF</td>
+                      <td>Informatika</td>
+                      <td>IF-002</td>
+                      <td>Database</td>
+                      <td>2</td>
+                      <td>A</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <p class="text-justify" style="font-size: 32px;">Perhatikan bahwa jika kita ingin meng-update jumlah sks mata kuliah English dari 2 menjadi 3 sks, maka kita harus mengupdate lebih dari 1 record, yaitu baris 2 dan 4. Jika hanya salah satu baris saja yang di-update, maka data menjadi tidak konsisten (ada mata kuliah English dengan 2 sks dan ada mata kuliah English dengan 3 sks). Kondisi seperti inilah yang disebut dengan update anomaly</p>
+          <div class="row">
+            <div class="col-md-1"><a class="btn btn-warning" href="MateriPengertianNormalisasi.html"><i class="fa fa-arrow-left"></i>&nbsp;Balik</a></div>
+            <div class="col-md-10"></div>
+            <div class="col-md-1"><a class="btn btn-warning" href="MateriInsertionAnomaly.html">Lanjut&nbsp;<i class="fa fa-arrow-right"></i></a></div>
+          </div>
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <pingendo onclick="window.open('https://pingendo.com/', '_blank')" style="cursor:pointer;position: fixed;bottom: 20px;right:20px;padding:4px;background-color: #00b0eb;border-radius: 8px; width:220px;display:flex;flex-direction:row;align-items:center;justify-content:center;font-size:14px;color:white">Made with Pingendo Free&nbsp;&nbsp;<img src="https://pingendo.com/site-assets/Pingendo_logo_big.png" class="d-block" alt="Pingendo logo" height="16"></pingendo>
+  <div class="bg-secondary text-light py-3">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 text-center d-md-flex align-items-center d-inline-flex justify-content-center flex-grow-1">
+          <ul class="nav d-flex justify-content-center text-light align-items-center">
+            <li class="nav-item text-light d-inline-flex justify-content-center align-items-center" style=""> <a class="nav-link active" href="Homepage Normalisasi.html" style="color:white;">Beranda</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="MateriPengertianNormalisasi.html" style="color:white;">Materi</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="Page Latihan Soal.html" style="color:white;">Soal</a> </li>
+            <li class="nav-item"><a class="nav-link" href="Video.html" style="color:white;">Video</a></li>
+            <li class="nav-item"><a class="nav-link" href="Forum.html" style="color:white;">Forum</a></li>
+            <li class="nav-item"><a class="nav-link" href="Unduh.html" style="color:white;">Unduh</a></li>
+          </ul> <i class="d-block fa-3x mx-auto text-primary"></i>
+          <p class="mb-0 py-1 justify-content-center d-inline-flex align-items-center">©2018 Kelompok 1 IF 40-01</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="https://static.pingendo.com/bootstrap/bootstrap-4.1.3.css">
+</head>
+
+<body data-offset="20" data-spy="scroll" data-target="#myScrollspy" style="">
+  <nav class="navbar navbar-expand-md navbar-fixed-top fixed-top text-capitalize bg-light navbar-light">
+    <div class="container-fluid"> <a class="navbar-brand text-primary text-body" style="font-family:'Exo 2', sans-serif; font-size: 30px; font-weight:900;" href="Homepage Normalisasi.html">
+        <i>Normalisasi</i>
+      </a> <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbar4">
+        <span class="navbar-toggler-icon text-capitalize"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar4">
+        <ul class="navbar-nav ml-auto" style="">
+          <li class="nav-item" style=""> <a class="nav-link" style="font-size: 20px" href="Homepage Normalisasi.html"><i class="fa fa-home"></i>Beranda</a> </li>
+          <li class="nav-item"> <a class="nav-link" style="font-size: 20px" href="MateriPengertianNormalisasi.html"><i class="fa fa-book"></i>Materi</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="Page Latihan Soal.html" style="font-size: 20px"><i class="fa fa-pencil"></i> Soal </a> </li>
+          <li class="nav-item"> <a class="nav-link" href="Video.html" style="font-size: 20px"><i class="fa fa-play-circle-o"></i>Video</a> </li>
+          <li class="nav-item"><a class="nav-link" href="Forum.html" style="font-size: 20px"><i class="fa fa-comments-o"></i>Forum</a></li>
+          <li class="nav-item"><a class="nav-link" href="Unduh.html" style="font-size: 20px"><i class="fa fa-download"></i>Unduh</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="py-5 text-center text-white align-items-center d-flex bg-secondary h-75" style="">
+    <div class="container py-5">
+      <div class="row">
+        <div class="mx-auto col-lg-8 col-md-10">
+          <h1 class="display-3 mb-4">1<sup>st</sup>NF - Latihan Soal</h1>
+          <p class="lead mb-4">Anda bisa memulai latihan soal normalisasi 1<sup>st</sup>NF disini</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9" style="margin-top: 50px">
+          <h1><b> Soal No 1. </b> </h1>
+          <p class="" style="font-size: 20px; margin-top:30px; margin-bottom:5px;">Perhatikan table normalisasi 1<sup>st</sup> NF dibawah ini: </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9">
+        <div class="table-responsive">
+          <table class="table table-bordered">
+            <thead class="thead-dark">
+              <tr>
+                <th>NIM</th>
+                <th>Hobby</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td> 113040157 </td>
+                <td>Membaca Buku, Photography</td>
+              </tr>
+              <tr>
+                <td> 113041009 </td>
+                <td>Renang, Jogging, Badminton</td>
+              </tr>
+              <tr>
+                <td> 113040276</td>
+                <td>Ngoding, Design Website</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9">
+        <p class="" style="font-size: 20px; margin-top:12px"> Bagaimana menjadikan tabel atas agar memenuhi syarat 1<sup>st</sup>NF ?<br>Isilah jawaban pada tabel sesuai dengan pilihan berikut ini :</p>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="table-responsive">
+              <table class="table table-bordered">
+                <thead class="thead-dark">
+                  <tr>
+                    <th>NIM</th>
+                    <th>Hobby</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td> 113040157 </td>
+                    <td>Membaca Buku</td>
+                  </tr>
+                  <tr>
+                    <td> 113040157 </td>
+                    <td>a ............</td>
+                  </tr>
+                  <tr>
+                    <td> 113041009 </td>
+                    <td>Renang</td>
+                  </tr>
+                  <tr>
+                    <td> b .............&nbsp;</td>
+                    <td>e&nbsp;............</td>
+                  </tr>
+                  <tr>
+                    <td> c&nbsp;............</td>
+                    <td>f&nbsp;............</td>
+                  </tr>
+                  <tr>
+                    <td> d&nbsp;............</td>
+                    <td>g&nbsp;............</td>
+                  </tr>
+                  <tr>
+                    <td> 113040276</td>
+                    <td>Design Website</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <form id="c_form-h" class="">
+                  <div class="form-group row"> <label for="inputmailh" class="col-2 col-form-label mr-0 text-right" style="">a</label>
+                    <div class="col-7">
+                      <input type="text" class="form-control" id="inputmailh" placeholder="Masukan Jawaban Disini"> </div>
+                  </div>
+                  <div class="form-group row"> <label for="inputpasswordh" class="col-2 col-form-label text-right">b</label>
+                    <div class="col-7">
+                      <input type="password" class="form-control" id="inputpasswordh" placeholder="Masukan Jawaban Disini"> </div>
+                  </div>
+                </form>
+              </div>
+              <div class="col-md-6">
+                <form id="c_form-h" class="">
+                  <div class="form-group row"> <label for="inputmailh" class="col-2 col-form-label text-right">e</label>
+                    <div class="col-7">
+                      <input type="text" class="form-control" id="inputmailh" placeholder="Masukan Jawaban Disini"> </div>
+                  </div>
+                  <div class="form-group row"> <label for="inputpasswordh" class="col-2 col-form-label text-right">f</label>
+                    <div class="col-7">
+                      <input type="text" class="form-control" id="inputpasswordh" placeholder="Masukan Jawaban Disini"> </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <form id="c_form-h" class="">
+                  <div class="form-group row"> <label for="inputmailh" class="col-2 col-form-label text-right">c</label>
+                    <div class="col-7">
+                      <input type="text" class="form-control" id="inputmailh" placeholder="Masukan Jawaban Disini"> </div>
+                  </div>
+                  <div class="form-group row"> <label for="inputpasswordh" class="col-2 col-form-label text-right">d</label>
+                    <div class="col-7">
+                      <input type="text" class="form-control" id="inputpasswordh" placeholder="Masukan Jawaban Disini"> </div>
+                  </div>
+                </form>
+              </div>
+              <div class="col-md-6" style="">
+                <form id="c_form-h" class="">
+                  <div class="form-group row"> <label for="inputmailh" class="col-2 col-form-label text-right">g</label>
+                    <div class="col-7">
+                      <input type="text" class="form-control" id="inputmailh" placeholder="Masukan Jawaban Disini"> </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <pingendo onclick="window.open('https://pingendo.com/', '_blank')" style="cursor:pointer;position: fixed;bottom: 20px;right:20px;padding:4px;background-color: #00b0eb;border-radius: 8px; width:220px;display:flex;flex-direction:row;align-items:center;justify-content:center;font-size:14px;color:white">Made with Pingendo Free&nbsp;&nbsp;<img src="https://pingendo.com/site-assets/Pingendo_logo_big.png" class="d-block" alt="Pingendo logo" height="16"></pingendo>
+  <div class="py-4" style="">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="row">
+            <div class="col-md-8"></div>
+            <div class="col-md-4">
+              <div class="row">
+                <div class="col-md-12 w-100">
+                  <ul class="nav">
+                    <li class="nav-item w-50 rounded border border-secondary text-dark bg-warning">
+                      <a href="MateriPengertianNormalisasi.html" class="nav-link active" style="color:black; font-size:20px; font-weight:bold;"><i class="fa fa-arrow-left text-dark"></i>&nbsp; &nbsp; Materi</a>
+                    </li>
+                    <li class="nav-item w-50 border border-secondary rounded text-right bg-warning text-dark">
+                      <a href="#" class="nav-link active text-center" style="color:black; font-size:20px; font-weight:bold;">Periksa</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bg-secondary text-light py-3">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 text-center d-md-flex align-items-center d-inline-flex justify-content-center flex-grow-1">
+          <ul class="nav d-flex justify-content-center text-light align-items-center">
+            <li class="nav-item text-light d-inline-flex justify-content-center align-items-center" style=""> <a class="nav-link active" href="Homepage Normalisasi.html" style="color:white;">Beranda</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="MateriPengertianNormalisasi.html" style="color:white;">Materi</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="Page Latihan Soal.html" style="color:white;">Soal</a> </li>
+            <li class="nav-item"><a class="nav-link" href="Video.html" style="color:white;">Video</a></li>
+            <li class="nav-item"><a class="nav-link" href="Forum.html" style="color:white;">Forum</a></li>
+            <li class="nav-item"><a class="nav-link" href="Unduh.html" style="color:white;">Unduh</a></li>
+          </ul> <i class="d-block fa-3x mx-auto text-primary"></i>
+          <p class="mb-0 py-1 justify-content-center d-inline-flex align-items-center">©2018 Kelompok 1 IF 40-01</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
